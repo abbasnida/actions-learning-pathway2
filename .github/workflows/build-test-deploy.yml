@@ -65,7 +65,7 @@ jobs:
         run: ls -R ./out
 
       - name: upload artifacts
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with: 
           path: "./out"
 
