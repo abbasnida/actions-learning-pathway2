@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
-        run: echo "Hello, I am Reusable Workflow ${{ inputs.username }}!"
+        run: echo "Hello, I am ${{ inputs.username }}!"
       
       - name: Use Secret
         run: echo "Secret is ${{ secrets.MY_SECRET }}"
