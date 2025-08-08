@@ -8,6 +8,6 @@ jobs:
   call-workflow:
     uses: ./.github/workflows/reusable-workflow.yml
     with:
-      username: "Alice"
+      username: "ReusableWorkflow"
     secrets:
       MY_SECRET: ${{ secrets.MY_SECRET }}
